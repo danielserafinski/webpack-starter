@@ -1,0 +1,45 @@
+{
+  "name": "webpack-ts",
+  "version": "1.0.0",
+  "description": "webpack-ts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "prod": "webpack -p"
+  },
+  "author": "DZS",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.26.0",
+    "image-webpack-loader": "^3.3.0",
+    "node-sass": "^4.4.0",
+    "sass-loader": "^4.1.1",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "file-loader": "^0.11.1",
+    "image-webpack-loader": "^3.3.0",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielserafinski/webpack-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielserafinski/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/danielserafinski/webpack-starter#readme"
+}
